@@ -6,7 +6,7 @@ if(isset($_POST['Submit'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "taleof4gamers2012@gmail.com";
+    $email_to = "proculgamedevelopment@gmail.com";
  
     $email_subject = "Procul Games Application";
  

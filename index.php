@@ -136,12 +136,21 @@
 									<label for="FullName">Name</label>
 									<input type="text" name="FullName" id="FullName" />
 								</div>
+                           	  <div class="field">
+								<label for="Position">Position (Dropdown)</label>
+                                <select name="Position">
+                                  <option value="Programmer" selected="selected">Programmer</option>
+                                  <option value="3D Modeller">3D Modeller</option>
+                                  <option value="Level Designer">Level Designer</option>
+                                  <option value="Sound &amp; Music Artist">Sound &amp; Music Artist</option>
+                                </select>
+                           	  </div>
 								<div class="field">
 									<label for="email">Email</label>
 									<input type="email" name="email" id="email" />
 								</div>
 								<div class="field">
-									<label for="message">Message + Position applying for</label>
+									<label for="message">Message</label>
 									<textarea name="message" id="message" rows="4"></textarea>
 								</div>
 								<ul class="actions">

@@ -32,6 +32,8 @@ if(isset($_POST['Submit'])) {
     if(!isset($_POST['FullName']) ||
  
         !isset($_POST['email']) ||
+		
+		!isset($_POST['Position']) ||
  
         !isset($_POST['message'])) {
  
@@ -42,6 +44,8 @@ if(isset($_POST['Submit'])) {
     $FullName = $_POST['FullName']; // required
  
     $email_from = $_POST['email']; // required
+	
+	$Position = $_POST['Position']; // required
  
     $comments = $_POST['message']; // required
  
@@ -86,6 +90,8 @@ if(isset($_POST['Submit'])) {
     }
  
     $email_message .= "Full Name: ".clean_string($FullName)."\n";
+	
+	$email_message .= "Position: ".clean_string($Position)."\n";
  
     $email_message .= "Email: ".clean_string($email_from)."\n";
  

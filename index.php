@@ -138,7 +138,7 @@
 								</div>
                            	  <div class="field">
 								<label for="Position">Position (Dropdown)</label>
-                                <select name="Position">
+                                <select name="Position" id="Position">
                                   <option value="Programmer" selected="selected">Programmer</option>
                                   <option value="3D Modeller">3D Modeller</option>
                                   <option value="Level Designer">Level Designer</option>

@@ -282,17 +282,26 @@
 						<div class="inner">
 							<h2 class="major">Apply Here</h2>
 							<p>Would you like to join the team? Interested in turning your passion for video games into a job? Why not start here! We are a small team that is motivated to make games so that we can progress and use the skills that we pick up along the way to continue to make games and possibly make money doing it!</p>
-							<form action="assets/php/send_form_email.php" method="post" id="ApplicationForm">
+						<form action="assets/php/send_form_email.php" method="post" id="ApplicationForm">
 								<div class="field">
 									<label for="FullName">Name</label>
 									<input type="text" name="FullName" id="FullName" />
 								</div>
+                           	  <div class="field">
+								<label for="Position">Position (Dropdown)</label>
+                                <select name="Position">
+                                  <option value="Programmer" selected="selected">Programmer</option>
+                                  <option value="3D Modeller">3D Modeller</option>
+                                  <option value="Level Designer">Level Designer</option>
+                                  <option value="Sound &amp; Music Artist">Sound &amp; Music Artist</option>
+                                </select>
+                           	  </div>
 								<div class="field">
 									<label for="email">Email</label>
 									<input type="email" name="email" id="email" />
 								</div>
 								<div class="field">
-									<label for="message">Message + Position applying for</label>
+									<label for="message">Message</label>
 									<textarea name="message" id="message" rows="4"></textarea>
 								</div>
 								<ul class="actions">
@@ -303,7 +312,7 @@
 							  <li class="fa-envelope"><a href="mailto:proculgamedevelopment@gmail.com" target="_blank">proculgamedevelopment@gmail.com</a></li>
 								<li class="fa-twitter"><a href="http://www.twitter.com/proculgamedev" target="_blank">twitter.com/proculgamedev</a></li>
 								<li class="fa-facebook"><a href="http://www.facebook.com/proculgames" target="_blank">facebook.com/proculgames</a></li>
-                              <li class="fa-youtube"><a href="https://www.youtube.com/channel/UCVjTxhUg94609b0YKLLSsdw" target="_blank">youtube.com/proculgames</a></li>
+                                <li class="fa-youtube"><a href="https://www.youtube.com/channel/UCVjTxhUg94609b0YKLLSsdw" target="_blank">youtube.com/proculgames</a></li>
 							</ul>
 </div>
 					</section>

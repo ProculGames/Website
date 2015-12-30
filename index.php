@@ -99,25 +99,25 @@
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
 											<h3 class="major">Programmer/Developer</h3>
-											<p>&lt;No. of Slots&gt; Available!</p>
+											<p>(0)  Available!</p>
 											<p>You will be responsible for designing and creating some of the games core mechanics and features. These could include; Health, Hunger, AI, UI, Main Menu &amp; Pause Menu etc.</p>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
 											<h3 class="major">3D Modeller</h3>
-											<p>&lt;No. of Slots&gt; Available!</p>
+											<p>(0) Available!</p>
 											<p>You will be responsible for creating 3D models for which they may be used within the game. These things could include, Characters, Houses/Buildings, Misc. Items, Furniture etc.</p>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
 											<h3 class="major">Level Designer</h3>
-											<p>&lt;No. of Slots&gt; Available!</p>
+											<p>(1) Available!</p>
 											<p>You will be responsible for creating the landscape within the game and placing models within the world. You will have to position models to get the most out of the world and make it as atmospheric as possible.</p>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
 										  <h3 class="major">Sound &amp; Music Artist</h3>
-											<p>&lt;No. of Slots&gt; Available!</p>
+											<p>(0) Available!</p>
 											<p>You will be responsible for creating sounds that we can put into the game. These may include but not limited to; Movement Sounds, Animal Noises and Ambient Music.</p>
 										</article>
 									</section>

@@ -59,13 +59,13 @@ if(isset($_POST['Submit'])) {
  
   if(!preg_match($string_exp,$FullName)) {
  
-    $error_message .= 'The name you entered does not appear to be valid.<br />';
+    $error_message .= 'The Name you entered does not appear to be valid.<br />';
  
   }
  
   if(strlen($comments) < 2) {
  
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+    $error_message .= 'The Message you entered do not appear to be valid.<br />';
  
   }
  

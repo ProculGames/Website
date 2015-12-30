@@ -130,7 +130,7 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Apply Here</h2>
-							<p>Would you like to join the team? Interested in turning your passion for video games into a job? Why not start here! We are a small team that are motivated to make games so that we can progress and use the skills that we pick up along the way to continue to make games and possibly make money doing it!</p>
+							<p>Would you like to join the team? Interested in turning your passion for video games into a job? Why not start here! We are a small team that is motivated to make games so that we can progress and use the skills that we pick up along the way to continue to make games and possibly make money doing it!</p>
 							<form action="assets/php/send_form_email.php" method="post" id="ApplicationForm">
 								<div class="field">
 									<label for="FullName">Name</label>

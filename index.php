@@ -69,11 +69,11 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="https://www.youtube.com/channel/UCVjTxhUg94609b0YKLLSsdw" class="image"><img src="images/Youtube_Play.png" alt="" /></a>
+									<a href="https://www.youtube.com/channel/UCVjTxhUg94609b0YKLLSsdw" target="_blank" class="image"><img src="images/Youtube_Play.png" alt="" /></a>
 								  <div class="content">
 									<h2 class="major">Youtube</h2>
 										<p>Why not visit our YouTube. We will post update videos showing progression within our games and what everyone can expect in future updates/patches. It is a good place to start if you are looking for updates on our games!</p>
-										<a href="https://www.youtube.com/channel/UCVjTxhUg94609b0YKLLSsdw" class="special">VISIT OUR YOUTUBE</a>
+										<a href="https://www.youtube.com/channel/UCVjTxhUg94609b0YKLLSsdw" target="_blank" class="special">VISIT OUR YOUTUBE</a>
 									</div>
 							  </div>
 							</section>
@@ -81,11 +81,11 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="https://www.facebook.com/proculgames/" class="image"><img src="images/Facebook.png" alt="" /></a>
+									<a href="https://www.facebook.com/proculgames/" target="_blank" class="image"><img src="images/Facebook.png" alt="" /></a>
 									<div class="content">
 									  <h2 class="major">Facebook</h2>
 									  <p>Like us on Facebook. Here you can stay up to date on our games by reading full changelogs. You could also have a chance of winning a free copy of our game if we do a giveaway!</p>
-										<a href="https://www.facebook.com/proculgames/" class="special">VISIT OUR FACEBOOK</a>
+										<a href="https://www.facebook.com/proculgames/" target="_blank" class="special">VISIT OUR FACEBOOK</a>
 								  </div>
 							  </div>
 							</section>

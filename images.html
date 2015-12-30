@@ -5,8 +5,39 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+<script language="JavaScript1.1">
+<!--
+var slideimages=new Array()
+var slidelinks=new Array()
+
+function slideshowimages()
+{
+ for (i=0;i<slideshowimages.arguments.length;i++)
+ {
+ slideimages[i]=new Image()
+ slideimages[i].src=slideshowimages.arguments[i]
+ }
+}
+
+function slideshowlinks()
+{
+ for (i=0;i<slideshowlinks.arguments.length;i++)
+ slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow()
+{
+ if (!window.winslide||winslide.closed)
+ winslide=window.open(slidelinks[whichlink])
+ else
+ winslide.location=slidelinks[whichlink]
+ winslide.focus()
+}
+
+//-->
+</script>
 	<head>
-		<title>Procul Games - About Us</title>
+		<title>Procul Games - Images</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -45,8 +76,8 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>About Us</h2>
-								<p>We are an indie game development team. We started from one but have grown to many. We are producing a massively open world game that we hope with your help that we will become #1.</p>
+								<!--<h2></h2>-->
+								<!--<p></p>-->
 							</div>
 						</header>
 
@@ -54,11 +85,10 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									<h3 class="major">How we started</h3>
-									<p>I grew tired of failing teams do to lack of members. So I decided to post a ad on IndieDB to see if people wanted to join. Before I knew it my inbox blew up with people wanting to join. The team grew, with memebers joining and even some leaving we are prodcuing a game that I never thought would be possible. These new team mates made everything possibel. They are a talented group of people.</p>
-
-									<h3 class="major">The future</h3>
-									<p>The future holds a company that will change indie games forever!</p>
+									<!--<h3 class="major"></h3>-->
+									<!--<p></p>-->
+									<!--<h3 class="major"></h3>-->
+									<!--<p></p>-->
 								</div>
 							</div>
 
@@ -105,6 +135,34 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+<a href="javascript:gotoshow()"><img src="player.png" style="position: absolute; top: 10px; left: 200px;" name="slide" border=0 width=900 height=575 ></a>
+<link rel="stylesheet" href="assets/css/main.css" />
+<script>
+<!--
 
+//configure the paths of the images, plus corresponding target links; put the images and HTML file in same folder. 
+slideshowimages("player.png","player2.png")
+slideshowlinks("","","")
+
+//configure the speed of the slideshow, in miliseconds
+var slideshowspeed=40000
+
+var whichlink=0
+var whichimage=0
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+whichlink=whichimage
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+
+//-->
+</script>
 	</body>
 </html>

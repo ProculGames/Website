@@ -34,6 +34,7 @@
 							<ul class="links">
 								<li><a href="index.php">Home</a></li>
 								<li><a href="about us.html">About us</a></li>
+								<li><a href="images.html">Images</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>

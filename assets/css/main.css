@@ -1767,6 +1767,7 @@
 		margin: 0 0 2em 0;
 	}
 
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-family: Raleway, Helvetica, sans-serif;
@@ -3511,7 +3512,8 @@
 				}
 
 				.wrapper .inner {
-					padding: 2em 2em 0.1em 2em ;
+	padding: 2px;
+	text-align: left;
 				}
 
 				.wrapper.spotlight .inner {
@@ -3701,6 +3703,14 @@
 		}
 
 	}
+	
+/*GamingAnonymous Made These!*/
+/*CenterImage is used to "Center Images"*/
+/*TextSmallMargin is for something like lists which need to be more compact*/
 .CenterImage {
 	text-align: center;
+}
+
+.TextSmallMargin {
+	margin: 0 0 10px 0;
 }

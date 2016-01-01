@@ -100,25 +100,25 @@
 									<p>Below are the position that are available within the team and how many of that position you are able to apply for.</p>
 									<section class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Programmer/Developer</h3>
+											<a href="#" class="image"><img src="images/Job Images/Programming.jpg" alt="" /></a>
+										  <h3 class="major">Programmer/Developer</h3>
 											<p>(0)  Available!</p>
 											<p>You will be responsible for designing and creating some of the games core mechanics and features. These could include; Health, Hunger, AI, UI, Main Menu &amp; Pause Menu etc.</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">3D Modeller</h3>
+											<a href="#" class="image"><img src="images/Job Images/3D Modelling.jpg" alt="" /></a>
+										  <h3 class="major">3D Modeller</h3>
 											<p>(0) Available!</p>
 											<p>You will be responsible for creating 3D models for which they may be used within the game. These things could include, Characters, Houses/Buildings, Misc. Items, Furniture etc.</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">Level Designer</h3>
+											<a href="#" class="image"><img src="images/Job Images/World Design.jpg" alt="" /></a>
+										  <h3 class="major">Level Designer</h3>
 											<p>(1) Available!</p>
 											<p>You will be responsible for creating the landscape within the game and placing models within the world. You will have to position models to get the most out of the world and make it as atmospheric as possible.</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="images/Job Images/Music.jpg" alt="" /></a>
 										  <h3 class="major">Sound &amp; Music Artist</h3>
 											<p>(0) Available!</p>
 											<p>You will be responsible for creating sounds that we can put into the game. These may include but not limited to; Movement Sounds, Animal Noises and Ambient Music.</p>

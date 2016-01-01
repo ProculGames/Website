@@ -1,0 +1,7 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REMOTE_ADDR} !^2\.218\.36\.164
+RewriteCond %{REQUEST_URI} !^/maintenance\.html$
+RewriteRule ^(.*)$ http://proculgames.com/maintenance.html [R=307,L]

@@ -4,18 +4,18 @@
  * Include the libraries
  */
 
-require_once __DIR__."/idiorm.php";
-require_once __DIR__."/User.class.php";
-require_once __DIR__."/functions.php";
+require_once "idiorm.php";
+require_once "User.class.php";
+require_once "functions.php";
 
 /**
  * Configure Idiorm
  */
 
-$db_host = 'localhost';
+$db_host = 'mysql8.000webhost.com';
 $db_name = 'a7518359_login';
 $db_user = 'CarlW';
-$db_pass = 'Carlisgaming1';
+$db_pass = '<Password>';
 
 ORM::configure("mysql:host=$db_host;dbname=$db_name");
 ORM::configure("username", $db_user);
@@ -28,7 +28,7 @@ ORM::configure('driver_options', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAME
  * Configure the session
  */
 
-session_name('tzreg');
+session_name('proculregistration');
 
 // Uncomment to keep people logged in for a week
 session_set_cookie_params(60 * 60 * 24 * 7);
